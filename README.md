@@ -43,21 +43,21 @@ skills 目录（Claude Code 是 ~/.claude/skills/，WorkBuddy 是 ~/.workbuddy/s
 先把仓库下载到本地，二选一：
 
 - **用 Git**：点本页右上角 `Code`，复制仓库地址，然后 `git clone <那个地址>`
-- **不用 Git**：点 `Code → Download ZIP`，解压
+- **不用 Git**：点 `Code → Download ZIP`，解压（会得到一个叫 `grilling-main` 的文件夹）
 
-然后进入仓库目录（解压出来的目录也叫 `grilling`）：
+然后进入仓库目录（git clone 得到的是 `grilling`，ZIP 解压得到的是 `grilling-main`）：
 
 **macOS / Linux**
 
 ```bash
-cd grilling
+cd grilling          # 用 ZIP 下载的话，改成 cd grilling-main
 bash install.sh
 ```
 
 **Windows（PowerShell）**
 
 ```powershell
-cd grilling
+cd grilling          # 用 ZIP 下载的话，改成 cd grilling-main
 powershell -ExecutionPolicy Bypass -File install.ps1
 ```
 
