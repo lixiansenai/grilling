@@ -24,10 +24,16 @@ grilling 强制在动手之前停下来，用苏格拉底三问 + 设计树，�
 
 ### 方式一：一键脚本（推荐）
 
+先把仓库下载到本地，二选一：
+
+- **用 Git**：点本页右上角 `Code`，复制仓库地址，然后 `git clone <那个地址>`
+- **不用 Git**：点 `Code → Download ZIP`，解压
+
+然后进入仓库目录（解压出来的目录也叫 `grilling`）：
+
 **macOS / Linux**
 
 ```bash
-git clone https://github.com/<你的用户名>/grilling.git
 cd grilling
 bash install.sh
 ```
@@ -35,7 +41,6 @@ bash install.sh
 **Windows（PowerShell）**
 
 ```powershell
-git clone https://github.com/<你的用户名>/grilling.git
 cd grilling
 powershell -ExecutionPolicy Bypass -File install.ps1
 ```
