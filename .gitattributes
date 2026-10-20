@@ -1,0 +1,4 @@
+# 统一换行符，避免 Windows 下提交的 shell 脚本在 Linux/macOS 上执行失败
+* text=auto eol=lf
+*.sh text eol=lf
+*.ps1 text eol=crlf
