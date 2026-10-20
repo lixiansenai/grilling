@@ -22,6 +22,22 @@ grilling 强制在动手之前停下来，用苏格拉底三问 + 设计树，�
 
 ## 安装
 
+### 方式零：让你的 AI 自己装（最省事）
+
+把下面这一整段复制给能操作你电脑的 AI（Claude Code、WorkBuddy、Cursor 这类；网页版聊天窗口不行，它没有你的文件系统）：
+
+````text
+帮我安装这个 Agent Skill：
+https://github.com/lixiansenai/grilling
+
+做法：把仓库 clone 到本地临时目录，将 skills/grilling/ 整个目录复制到我的
+skills 目录（Claude Code 是 ~/.claude/skills/，WorkBuddy 是 ~/.workbuddy/skills/），
+确保最终路径是 <skills目录>/grilling/SKILL.md。
+装完确认 SKILL.md 的 frontmatter 里有 name: grilling，然后告诉我结果。
+````
+
+一句话版本，也可以直接说：**「装一下 https://github.com/lixiansenai/grilling 这个 skill」**——大多数带终端的 AI 都能自己完成。
+
 ### 方式一：一键脚本（推荐）
 
 先把仓库下载到本地，二选一：
